@@ -22,13 +22,13 @@
 
 Comando         | Finalidade
 --------------- | ----------------- 
-wsl --install <Distro>                      | Instalar uma distribuição
-wsl --install --distribution Debian <br> wsl --install -d Debian | Instalar uma distribuição
+wsl --install Ubuntu-22.04                  | Instalar uma distribuição
+wsl --install --distribution Ubuntu-22.04 <br> wsl --install -d Ubuntu-22.04 | Instalar uma distribuição
 wsl --list <br> wsl -l                      | Listar distribuições instaladas
 wsl --list --online <br> wsl -l -o          | Listar distribuições disponíveis
 wsl --list --verbose <br> wsl -l -o         | Lista o status das distribuições instaladas
-wsl --set-default Debian <br> wsl -s Debian | Define a distribuição como padrão.
-wsl -t Ubuntu-20.04                         | Desligar a distribuição Linux
+wsl --set-default Ubuntu-22.04 <br> wsl -s Ubuntu-22.04 | Define a distribuição como padrão.
+wsl -t Ubuntu-22.04                         | Desligar a distribuição Linux
 wsl --shutdown                              | Encerra imediatamente todas as distribuições em execução e a WSL2.
 wsl --status                                | Mostra o status do Subsistema do Windows para Linux.
 wsl --update [Options]                      | Se nenhuma opção for especificada, o kernel do WSL2 será atualizado para a versão mais recente.
