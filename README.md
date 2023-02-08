@@ -5,4 +5,4 @@
 
 ## Infraestrutura / DevOps
 
-[WSL - WSL - Windows Subsystem for Linux](https://github.com/dev-carvalho/dev-ops/blob/main/WSL%20-%20Windows%20Subsystem%20for%20Linux.md)
+[WSL - Windows Subsystem for Linux](https://github.com/dev-carvalho/dev-ops/blob/main/WSL%20-%20Windows%20Subsystem%20for%20Linux.md)
