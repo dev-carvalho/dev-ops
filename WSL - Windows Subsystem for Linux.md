@@ -24,6 +24,7 @@ Comando         | Finalidade
 --------------- | ----------------- 
 wsl --install Ubuntu-22.04                  | Instalar uma distribuição
 wsl --install --distribution Ubuntu-22.04 <br> wsl --install -d Ubuntu-22.04 | Instalar uma distribuição
+wsl --unregister Ubuntu                     | retira da lista de distribuições registradas no WSL	
 wsl --list <br> wsl -l                      | Listar distribuições instaladas
 wsl --list --online <br> wsl -l -o          | Listar distribuições disponíveis
 wsl --list --verbose <br> wsl -l -o         | Lista o status das distribuições instaladas
