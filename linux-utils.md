@@ -25,3 +25,20 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/mast
 - INSTALAÇÃO - https://terminalroot.com.br/2019/05/conheca-e-instale-o-oh-my-bash.html
 - OH-MY-BASH - https://github.com/ohmybash/oh-my-bash
  
+<br>
+
+## figlet
+
+```bash
+apt install figlet
+``` 
+
+```bash
+01:51:33 root@i7ultra / → figlet Karvalho
+ _  __                     _ _
+| |/ /__ _ _ ____   ____ _| | |__   ___
+| ' // _` | '__\ \ / / _` | | '_ \ / _ \
+| . \ (_| | |   \ V / (_| | | | | | (_) |
+|_|\_\__,_|_|    \_/ \__,_|_|_| |_|\___/
+``` 
+
