@@ -3,7 +3,7 @@
 Bash       | Novo                | Exemplo       | Destaque util
 ---------- | ------------------- | ------------- | -------------
 ls         | exa                 | alias ll='exa -la'                                         | Lista de arquivos super colorido e alegre
-df         | pydf                | alias df='pydf -h'   c                                     | df detahado e super colorido e alegre
+df         | pydf                | alias df='pydf -h'                                         | df detahado e super colorido e alegre
 less	     | most                | alias less='most'                                          | Apresenta o arquivo
 tail       | multitail           | multitail -s 2 -i /var/log/daemon.log -I /var/log/auth.log | Multiplos arquivos no mesmo tail
 tracepath	 | mtr (My TraceRoute) | mtr -r -c 5 google.com                                     | Sofisticado trace route
