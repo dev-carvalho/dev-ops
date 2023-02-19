@@ -9,8 +9,19 @@ tail       | multitail           | multitail -s 2 -i /var/log/daemon.log -I /var
 tracepath	 | mtr (My TraceRoute) | mtr -r -c 5 google.com                                     | Sofisticado trace route
 traceroute | mtr (My TraceRoute) |                                                            |
 
-<br>
-
 ### Referências
 - [multitail](https://www.debuntu.org/how-to-tail-multiple-files-with-multitail/)
 - [mrt (My TraceRoute) ](https://linuxhint.com/mtr-a-diagnostic-tool/)
+
+<br><br>
+
+## OH-MY-BASH 
+> Instale ***oh-my-bash***, por um bash mais colorido e alegre 
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+``` 
+
+### Referências
+- INSTALAÇÃO - https://terminalroot.com.br/2019/05/conheca-e-instale-o-oh-my-bash.html
+- OH-MY-BASH - https://github.com/ohmybash/oh-my-bash
+ 
