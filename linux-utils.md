@@ -1,3 +1,15 @@
+### Mostrar o logotipo da distribuição e informações do sistema do Linux em arte ASCII no terminal
+
+```bash
+sudo apt install neofetch
+```
+![image](https://user-images.githubusercontent.com/93828234/219990816-f3d6c8a3-2495-4300-b295-8df17128f8c5.png)
+
+#### Referências
+- https://livreeaberto.com/mostrando-logo-linux-em-ascii
+
+<br>
+
 ## Utilitarios Linux 22.04
 
 Bash       | Novo                | Exemplo       | Destaque util
@@ -9,7 +21,7 @@ tail       | multitail           | multitail -s 2 -i /var/log/daemon.log -I /var
 tracepath	 | mtr (My TraceRoute) | mtr -r -c 5 google.com                                     | Sofisticado trace route
 traceroute | mtr (My TraceRoute) |                                                            |
 
-### Referências
+#### Referências
 - [multitail](https://www.debuntu.org/how-to-tail-multiple-files-with-multitail/)
 - [mrt (My TraceRoute) ](https://linuxhint.com/mtr-a-diagnostic-tool/)
 
@@ -21,7 +33,7 @@ traceroute | mtr (My TraceRoute) |                                              
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 ``` 
 
-### Referências
+#### Referências
 - INSTALAÇÃO - https://terminalroot.com.br/2019/05/conheca-e-instale-o-oh-my-bash.html
 - OH-MY-BASH - https://github.com/ohmybash/oh-my-bash
  
