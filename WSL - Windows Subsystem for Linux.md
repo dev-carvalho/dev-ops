@@ -45,4 +45,12 @@ Comando         | Finalidade
 wsl --export Ubuntu ubuntu-backup.tar                               | Criar uma backup da distribuição WSL no Windows
 wsl --import Ubuntu C:\Users\USERNAME\Distros C:\ubuntu-backup.tar  | Restorar um backup da distribuição do Windows para WSL
 
+<br>
 
+## Acessano o sistema de arquivo do Linux apartir do Explore do Windows
+> Para ver todas as distribuições do Linux disponíveis e seus sistemas de arquivos raiz no <br>
+> Explorador de Arquivos do Windows, insira \\wsl$ na barra de endereços
+	
+	
+
+	
