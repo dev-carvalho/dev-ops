@@ -22,7 +22,6 @@
 
 Comando         | Finalidade
 --------------- | ----------------- 
-wsl --install Ubuntu-22.04                  | Instalar uma distribuição
 wsl --set-default-version 2                 | Executa tudo no WSL2	
 wsl --install --distribution Ubuntu-22.04 <br> wsl --install -d Ubuntu-22.04 | Instalar uma distribuição
 wsl --unregister Ubuntu                     | retira da lista de distribuições registradas no WSL	
@@ -34,6 +33,17 @@ wsl -t Ubuntu-22.04                         | Desligar a distribuição Linux
 wsl --shutdown                              | Encerra imediatamente todas as distribuições em execução e a WSL2.
 wsl --status                                | Mostra o status do Subsistema do Windows para Linux.
 wsl --update [Options]                      | Se nenhuma opção for especificada, o kernel do WSL2 será <br> atualizado para a versão mais recente.
+
+<br>	
+
+#### Instalar e Remover uma DISTRO
+- https://t2id.com/19080/noticias/como-excluir-corretamente-uma-distribuicao-linux-do-wsl/
+	
+Comando         | Finalidade
+--------------- | ----------------- 
+wsl --install Ubuntu    | Instalar uma DISTRO
+wsl --unregister Ubuntu | Remover completamento uma DISTRO	
+	
 	
 <br>
 	
