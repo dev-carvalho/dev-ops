@@ -34,3 +34,11 @@ wsl -t Ubuntu-22.04                         | Desligar a distribuição Linux
 wsl --shutdown                              | Encerra imediatamente todas as distribuições em execução e a WSL2.
 wsl --status                                | Mostra o status do Subsistema do Windows para Linux.
 wsl --update [Options]                      | Se nenhuma opção for especificada, o kernel do WSL2 será <br> atualizado para a versão mais recente.
+	
+	
+## WSL - Backup de DISTRO
+
+Comando         | Finalidade
+--------------- | ----------------- 
+wsl --export Ubuntu ubuntu-backup.tar                               | Cria uma backup da distribuição
+wsl --import Ubuntu C:\Users\USERNAME\Distros C:\ubuntu-backup.tar  | Restore o backup da distribuição
