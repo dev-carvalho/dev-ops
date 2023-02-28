@@ -63,4 +63,5 @@ wsl --import Ubuntu C:\Users\USERNAME\Distros C:\ubuntu-backup.tar  | Restorar u
 	
 	
 
-	
+#### Referências para estudos
+- https://learn.microsoft.com/pt-br/windows/wsl/filesystems
