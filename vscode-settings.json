@@ -1,0 +1,41 @@
+{
+  // Cursor
+  "editor.autoIndent": "full",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  // "editor.cursorStyle": "line",
+  "editor.cursorStyle": "block-outline",
+  // numero do lado em HighLight Blue
+  "editor.renderLineHighlight": "gutter",
+  // Font a ser utilizado
+  "editor.fontFamily": "'Fire Code','Anonymous Pro BI','Courier New'",
+  "editor.fontSize": 20,
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "editor.letterSpacing": 0.3,
+  "editor.lineHeight": 25,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "search.showLineNumbers": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorCustomizations": {},
+  "zenMode.centerLayout": false,
+  "settingsSync.ignoredExtensions": [
+    "johnpapa.winteriscoming",
+    "hoovercj.vscode-power-mode"
+  ],
+  "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
+  //
+  "powermode.enabled": true,
+  "powermode.combo.counterSize": 0,
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.presets": "flames"
+}
